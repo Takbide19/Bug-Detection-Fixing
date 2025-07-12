@@ -1,0 +1,26 @@
+# Core ML model
+codelemmas==0.3.2        # Pre‑trained CodeLemmas bug‑detection model
+
+# ML / data stack
+scikit-learn==1.4.1
+pandas==2.2.2
+numpy==1.26.4
+joblib==1.4.2            # Model serialization
+
+# Web API
+Flask==3.0.2
+gunicorn==22.0.0         # Prod WSGI server (Heroku, Render…)
+
+# Optional static analysis helpers
+pylint==3.1.0
+flake8==7.0.0
+black==24.3.0
+autopep8==2.1.0
+
+# UX & utilities
+tqdm==4.66.4             # Progress bars in CLI / training
+rich==13.7.1             # Colorful console reports (optional)
+
+# Tests
+pytest==8.0.0
+pytest-cov==5.0.0
